@@ -1,0 +1,71 @@
+/* Projects Section Styles */
+.projects {
+    padding: 60px 20px; /* Padding for top and bottom */
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .projects-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333; /* Title color */
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between project cards */
+  }
+  
+  .project-card {
+    background-color: #fff; /* Card background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Crop overflow */
+    transition: transform 0.3s; /* Smooth transform on hover */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .project-image {
+    width: 100%; /* Full width */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Cover to fill the space */
+  }
+  
+  .project-info {
+    padding: 20px; /* Padding inside the card */
+  }
+  
+  .project-title {
+    font-size: 1.5rem; /* Title font size */
+    margin: 0 0 10px; /* Bottom margin */
+    color: #333; /* Title color */
+  }
+  
+  .project-description {
+    font-size: 1rem; /* Description font size */
+    color: #666; /* Description color */
+    margin-bottom: 15px; /* Bottom margin */
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-between; /* Space out buttons */
+  }
+  
+  .project-button {
+    background-color: #f39c12; /* Button color */
+    color: #fff; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth background change */
+  }
+  
+  .project-button:hover {
+    background-color: #e67e22; /* Darker shade on hover */
+  }
+  

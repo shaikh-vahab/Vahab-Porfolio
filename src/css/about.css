@@ -1,0 +1,96 @@
+.about-section {
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    padding: 50px 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.download-cv-button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv-button:hover {
+    background-color: #ff5043;
+}
+
+.about-info {
+    display: flex;
+    top: 30px;
+    max-width: 400px;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220704/pngtree-dark-blackboard-texture-on-wall-with-a-solid-black-background-room-for-text-or-graphics-photo-image_32384084.jpg');
+    background-size: cover;
+    /* Ensures the image covers the entire container */
+    background-position: center;
+    /* Center the image in the container */
+    background-repeat: no-repeat;
+
+    padding: 130px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-info li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.about-info li strong {
+    color: #ff6f61;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content,
+    .about-info {
+        max-width: 100%;
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .about-info {
+        text-align: start;
+    }
+}

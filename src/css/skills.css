@@ -1,0 +1,152 @@
+/* Skills Section Styles */
+.skills {
+    padding: 60px 20px;
+    background-color: whitesmoke;
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skill-bar {
+    width: 100%;
+    /* Full width */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 10px;
+    /* Height of the progress bar */
+    background-color: #f39c12;
+    /* Progress bar color */
+}
+
+.skill-level {
+    font-size: 1rem;
+    /* Skill level font size */
+    margin-top: 5px;
+    /* Top margin */
+    color: #666;
+    /* Skill level color */
+}
+
+/* Media Queries */
+
+/* For tablets and small desktops */
+@media (max-width: 992px) {
+    .skills-title {
+        font-size: 2rem;
+        /* Adjust title size */
+    }
+
+    .skill-card {
+        
+        padding: 20px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-name {
+        font-size: 1.3rem;
+        /* Adjust skill name size */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .skills {
+        padding: 40px 10px;
+        /* Reduce padding */
+    }
+
+    .skills-title {
+        font-size: 1.8rem;
+        /* Adjust title size */
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        /* Adjust grid */
+        gap: 15px;
+        /* Reduce gap between skill cards */
+    }
+
+    .skill-name {
+        font-size: 1.2rem;
+        /* Adjust skill name size */
+    }
+
+    .skill-level {
+        font-size: 0.9rem;
+        /* Adjust skill level font size */
+    }
+}
+
+/* For small mobile devices */
+@media (max-width: 576px) {
+    .skills {
+        padding: 30px 5px;
+        /* Further reduce padding */
+    }
+
+    .skills-title {
+        font-size: 1.5rem;
+        /* Adjust title size */
+        margin-bottom: 30px;
+        /* Reduce bottom margin */
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        /* Single column grid */
+        gap: 20px;
+        /* Reduce gap between skill cards */
+    }
+
+    .skill-card {
+        width: 220px;
+        padding: 20px 40px;
+        /* Reduce padding inside the card */
+    }
+
+    .skill-name {
+        font-size: 1rem;
+        /* Adjust skill name size */
+    }
+
+    .skill-level {
+        font-size: 0.8rem;
+        /* Adjust skill level font size */
+    }
+}
