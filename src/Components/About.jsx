@@ -1,4 +1,5 @@
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 import '../css/about.css';
 import ProfileImage from '../..//public/Home-Dev.png'; // Ensure the path is correct for your image
 
@@ -7,13 +8,22 @@ const About = () => {
     <section className="about-section">
       <div className="about-container">
         <div className="about-content">
-          <h1>Hey, I'm Vahab 👋</h1>
+          <h1>Hey, I'm Vahab 💻 </h1>
+          <h2 className='Developer'>
+
+            I'm a  <Typewriter
+              words={['Frontend Developer  ...!', 'UI/UX Designer ...!', 'Web Developer ...!', 'ReactJs Developer ...!', 'Node.js Developer ...!', 'MERN Developer ...!']}
+              loop={5} // Change this to adjust the number of loops
+              cursor
+              cursorStyle='|'
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
+
+          </h2>
           <p>
-            I'm a frontend developer with a passion for creating engaging and user-friendly web experiences.
-            With a solid foundation in HTML, CSS, JavaScript, & ReactJs. I enjoy bringing designs to life and building intuitive interfaces.
-            During my journey as a developer, I've gained experience in working with modern frontend frameworks like React.js and
-            have a good understanding of responsive web design principles. I'm constantly learning and exploring new technologies
-            to enhance my skills.
+          As a passionate developer, I specialize in creating engaging and user-friendly web experiences. I have a solid foundation in HTML, CSS, JavaScript, and React.js, and I enjoy transforming designs into functional, intuitive interfaces. My experience extends to the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js, allowing me to build full-stack applications seamlessly.
           </p>
           <a
             href="/Vahab-shaikh-Frontend.pdf" // Correct path to your PDF
@@ -39,10 +49,12 @@ const About = () => {
         <div className="about-info">
           <ul>
             <li><strong>Name:</strong> Vahab Shaikh</li>
-            <li><strong>Age:</strong> 22</li>
             <li><strong>Email:</strong> Shaikhvahab97@gmail.com</li>
             <li><strong>Phone:</strong> +91 9175237382</li>
             <li><strong>Country:</strong> India</li>
+           
+            <li><strong>Qualification:</strong> B.sc (Science)</li>
+            <li><strong>Address:</strong> Nanded MH</li>
           </ul>
         </div>
       </div>

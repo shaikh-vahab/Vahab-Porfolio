@@ -37,11 +37,13 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
     transition: background-color 0.3s ease;
 }
 
 .download-cv-button:hover {
     background-color: #ff5043;
+    
 }
 
 .about-info {
@@ -55,10 +57,13 @@
     /* Center the image in the container */
     background-repeat: no-repeat;
 
+
+
     padding: 130px;
     margin-top: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 1px 15px rgba(180, 234, 141, 0.5);
+
 }
 
 .about-info ul {
@@ -73,6 +78,17 @@
 
 .about-info li strong {
     color: #ff6f61;
+}
+
+.Developer {
+
+    box-shadow: 2px 1px 5px rgba(180, 234, 141, 0.5);
+    /* A subtle shadow */
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+
+
 }
 
 @media (max-width: 768px) {
@@ -93,4 +109,9 @@
     .about-info {
         text-align: start;
     }
+}
+
+.Developer {
+    width: 100%;
+    margin-bottom: 10px;
 }

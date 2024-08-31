@@ -32,7 +32,11 @@
   .project-image {
     width: 100%; /* Full width */
     height: 200px; /* Fixed height for uniformity */
-    object-fit: cover; /* Cover to fill the space */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
+
+     /* Cover to fill the space */
   }
   
   .project-info {

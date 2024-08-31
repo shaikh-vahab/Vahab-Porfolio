@@ -5,21 +5,21 @@ const projects = [
   {
     title: 'MMH Project',
     description: 'It Is Provide Goverment Yojna For Peoples Medical Help.',
-    image: '../..//public/MMH-Project.png', // Replace with your project image
+    image: 'https://i.ibb.co/Dg5z9vp/MMH-Project.png', // Replace with your project image
     liveLink: '../..//public/MMH-Project.png', // Replace with your live project link
     repoLink: 'https://github.com/shaikh-vahab/MMH-Backend.git', // Replace with your GitHub repo link
   },
   {
     title: 'Raza-Juice',
     description: 'It Is juice Center Project To Provide Make And Order The Juices',
-    image: '../..//public/Juice-project.png',
+    image: 'https://i.ibb.co/CnGjNPY/Juice-project.png',
     liveLink: 'https://www.zomato.com/mumbai/raza-juice-center-sewri',
     repoLink: 'https://github.com/shaikh-vahab/Raza-juice-frontend',
   },
   {
     title: 'Tekisky-Mart',
     description: 'Is An a E-commerce Project We Can Byu And Cell Product ',
-    image: '../..//public/TekiskyMart.png',
+    image: 'https://i.ibb.co/3vS4Bj9/Tekisky-Mart.png',
     liveLink: 'https://www.tekiskymart.com/',
     repoLink: 'https://github.com/Tekisky123/Tekisky-Mart',
   },
