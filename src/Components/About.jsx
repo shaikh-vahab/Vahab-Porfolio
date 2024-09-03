@@ -26,7 +26,7 @@ const About = () => {
           As a passionate developer, I specialize in creating engaging and user-friendly web experiences. I have a solid foundation in HTML, CSS, JavaScript, and React.js, and I enjoy transforming designs into functional, intuitive interfaces. My experience extends to the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js, allowing me to build full-stack applications seamlessly.
           </p>
           <a
-            href="/Vahab-shaikh-Frontend.pdf" // Correct path to your PDF
+            href="/Vahab-Frontend.pdf" // Correct path to your PDF
             download="Vahab_Resume.pdf"
           >
             <button className="download-cv-button">Download Vahab's CV  <svg
